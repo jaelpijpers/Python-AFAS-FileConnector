@@ -13,7 +13,7 @@ token string inclusief XML-strings. (let op: geen BASE64!)
 > getRESTConnMetainfoEndpoint(omgeving, getconnector_naam, skip, take)
 ```
 **functie**<br/>
-genereert het correcte endpoint om de metainfo (json) te verkrijgen d.m.v. de meegeleverde variabelen. (alleen genereren! geen aanroep!)
+genereert het correcte endpoint (URL) om de metainfo (json) te verkrijgen d.m.v. de meegeleverde variabelen. (alleen URL genereren! geen aanroep!)
 
 **input**<br/>
 getRESTConnMetainfoEndpoint(33608, "Bestanden_uit_dossieritem", 0, 10) 
