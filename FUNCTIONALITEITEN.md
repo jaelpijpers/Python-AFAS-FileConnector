@@ -18,15 +18,6 @@ genereert het correcte endpoint (URL) om de metainfo (json) te verkrijgen d.m.v.
 **input**<br/>
 getRESTConnMetainfoEndpoint(33608, "Bestanden_uit_dossieritem", 0, 10) 
 <br/><br/>
-```python
-> token_str_to_base64(token)
-```
-**functie**<br/>
-zet token inclusief xml om tot base64 encoded string.
-
-**input**<br/>
-token string inclusief XML-strings. (let op: geen BASE64!)
-<br/><br/>
 
 ```python
 > getRESTConnMetainfo(token, omgeving, getconnector_naam, skip, take, write_to_file)
@@ -58,7 +49,7 @@ download_file('TOKEN_PLACEHOLDER', 33608,'60C5AAGE45C82E5FCA121DB4D49F7FAE', 'Im
 inclusief uitzonderingen volgens AFAS standaard. (https://help.afas.nl/help/NL/SE/App_Cnr_Rest_FileCn.htm#o87737)
 
 **input**<br/>
-token string inclusief XML-strings. (let op: geen BASE64!)
+urlencode(endpoint_url)
 <br/><br/>
 ```python
 > download_files(token, omgeving, getconnector_naam, guid_kolomveld, bestandsnaam_kolomveld, skip, take, save_path)
