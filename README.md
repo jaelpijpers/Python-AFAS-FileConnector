@@ -1,6 +1,6 @@
-![alt text](https://www.afas.nl/file/download/default/7FFDD0634D04FA4883D26EB42FC4FE8C/afas%20sw%20logo%20regel%20pms_5f293C%20pms_5f193C.png "AFAS Software logo")
+
 # Python-AFAS-FileConnector
-Functies klaargestoomd voor het gebruik van de AFAS FileConnector.
+Functies  voor het gebruik van de AFAS FileConnector.
 
 ### Gebruik
 Hier onderstaand een voorbeeld van het gebruik van de code.
